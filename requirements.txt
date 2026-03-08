@@ -1,0 +1,6 @@
+# No external packages needed at all!
+# - Gemini API uses urllib (built into Python)
+# - Database uses SQLite (built into Python)
+# - Everything else is pure Python
+#
+# Just install Python 3.8+ and you are ready to go.

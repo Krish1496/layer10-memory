@@ -1,0 +1,122 @@
+[
+  {
+    "id": "msg_001",
+    "author": "Diana Park",
+    "email": "diana@nexus.com",
+    "timestamp": "2024-01-10T09:00:00",
+    "subject": "Project Nexus Kickoff",
+    "body": "Hi team! Welcome to Project Nexus — our new data-sync platform. Alice Chen will be the Tech Lead for the overall project. Bob Martinez will own the Auth Module, and Charlie Davis will own the Frontend. We are targeting a launch date of March 15. Please confirm your assignments by end of day."
+  },
+  {
+    "id": "msg_002",
+    "author": "Alice Chen",
+    "email": "alice@nexus.com",
+    "timestamp": "2024-01-10T11:00:00",
+    "subject": "Re: Project Nexus Kickoff",
+    "body": "Thanks Diana! Confirmed — I'll lead Project Nexus and personally own the DataSync Core component. For the database layer, I'm recommending we use PostgreSQL. It handles our write patterns well and has strong JSONB support. Let me know if anyone has concerns."
+  },
+  {
+    "id": "msg_003",
+    "author": "Bob Martinez",
+    "email": "bob@nexus.com",
+    "timestamp": "2024-01-11T10:00:00",
+    "subject": "Auth Module — design complete",
+    "body": "Hey all — Bob here. I've finished the design doc for the Auth Module. Starting implementation this week. The module will use JWT tokens with a 24-hour expiry. Alice Chen reviewed and approved the design. Should be done by Feb 28."
+  },
+  {
+    "id": "msg_004",
+    "author": "Diana Park",
+    "email": "diana@nexus.com",
+    "timestamp": "2024-01-15T14:00:00",
+    "subject": "Database decision — switching to MySQL",
+    "body": "Team, after a cost review with finance, we are switching from PostgreSQL to MySQL. MySQL licenses are cheaper for our cloud provider. This decision overrides Alice's earlier recommendation. Alice Chen, Bob Martinez, and Charlie Davis please update your module configs accordingly. This is effective immediately."
+  },
+  {
+    "id": "msg_005",
+    "author": "Charlie Davis",
+    "email": "charlie@nexus.com",
+    "timestamp": "2024-01-16T09:30:00",
+    "subject": "Frontend tech stack question",
+    "body": "Hi A. Chen — quick question on the frontend stack. Should I use React or Vue for the Project Nexus frontend? I have more experience with Vue but I know the team has used React before. What do you prefer?"
+  },
+  {
+    "id": "msg_006",
+    "author": "Alice Chen",
+    "email": "alice@nexus.com",
+    "timestamp": "2024-01-16T10:15:00",
+    "subject": "Re: Frontend tech stack question",
+    "body": "Hi Charlie — let's go with React. It's our company standard and easier to hire for. React will be the official frontend framework for Project Nexus. Charlie Davis you own that decision now — please document it in the project wiki."
+  },
+  {
+    "id": "msg_007",
+    "author": "Bob Martinez",
+    "email": "bob.m@nexus.com",
+    "timestamp": "2024-02-05T08:00:00",
+    "subject": "BUG: Auth Module memory leak",
+    "body": "All — found a critical bug in the Auth Module. There is a memory leak in the user session handler. Under load, the server runs out of memory within 2 hours. This is a P0 issue. I am assigning this bug to myself (Bob Martinez) and will investigate. Deployment is at risk if not fixed by Feb 20."
+  },
+  {
+    "id": "msg_008",
+    "author": "Alice Chen",
+    "email": "alice@nexus.com",
+    "timestamp": "2024-02-05T09:00:00",
+    "subject": "Re: BUG: Auth Module memory leak",
+    "body": "Bob — this is serious. I am escalating this to Diana Park. Charlie Davis, I know you are on Frontend but I need you to pause your work and help Bob Martinez debug the Auth Module memory leak. The Frontend can wait. Charlie, please coordinate with Bob directly."
+  },
+  {
+    "id": "msg_009",
+    "author": "Diana Park",
+    "email": "diana@nexus.com",
+    "timestamp": "2024-02-06T11:00:00",
+    "subject": "Launch date update",
+    "body": "Due to the Auth Module bug and some other scheduling conflicts, I am moving the Project Nexus launch date from March 15 to March 22. Alice Chen acknowledged this change. Please update your project plans. The new launch date is March 22, 2024."
+  },
+  {
+    "id": "msg_010",
+    "author": "Alice Chen",
+    "email": "alice@nexus.com",
+    "timestamp": "2024-02-10T14:00:00",
+    "subject": "New team member: Eve Johnson joining Frontend",
+    "body": "Hi everyone — please welcome Eve Johnson to the team! Eve will be taking over the Frontend from Charlie Davis. Charlie is fully dedicated to helping Bob with the Auth Module bug. Eve Johnson now owns the Frontend component for Project Nexus. Eve, please coordinate with Charlie for handoff."
+  },
+  {
+    "id": "msg_011",
+    "author": "Bob Martinez",
+    "email": "bob@nexus.com",
+    "timestamp": "2024-02-18T16:00:00",
+    "subject": "Auth Module memory leak — FIXED",
+    "body": "Great news! Charlie Davis and I tracked down the Auth Module memory leak. The fix is a session cleanup routine that runs every 30 minutes. The bug is now resolved. The fix has been deployed to staging. Auth Module is back on track. Thanks Charlie for the help!"
+  },
+  {
+    "id": "msg_012",
+    "author": "Alice Chen",
+    "email": "alice@nexus.com",
+    "timestamp": "2024-02-20T10:00:00",
+    "subject": "Reverting database decision — back to PostgreSQL",
+    "body": "Team — we are reverting the database decision. After evaluating MySQL for two weeks, the engineering team found that our data model does not work well with MySQL's lack of native JSONB support. We are switching back to PostgreSQL. This overrides the January 15 decision. Alice Chen has discussed this with Diana Park who has approved the change."
+  },
+  {
+    "id": "msg_013",
+    "author": "Bob Martinez",
+    "email": "bob@nexus.com",
+    "timestamp": "2024-03-01T09:00:00",
+    "subject": "Status update — all modules",
+    "body": "Weekly status from B. Martinez: Auth Module is 80% complete. DataSync Core owned by Alice Chen is at 85%. Frontend owned by Eve Johnson is at 70%. Overall Project Nexus is on track for the March 22 launch. No blockers at this time."
+  },
+  {
+    "id": "msg_014",
+    "author": "Diana Park",
+    "email": "diana@nexus.com",
+    "timestamp": "2024-03-05T13:00:00",
+    "subject": "Infrastructure decision — deploying on AWS",
+    "body": "Infrastructure decision confirmed: Project Nexus will be deployed on AWS us-east-1. We will use AWS RDS for PostgreSQL hosting and AWS ECS for the application containers. Alice Chen and Bob Martinez have both signed off on this. This is final."
+  },
+  {
+    "id": "msg_015",
+    "author": "Alice Chen",
+    "email": "alice@nexus.com",
+    "timestamp": "2024-03-20T08:00:00",
+    "subject": "Project Nexus — All Systems Go",
+    "body": "Team — we are ready for the March 22 launch! Auth Module (Bob Martinez) — done. Frontend (Eve Johnson) — done. DataSync Core (Alice Chen) — done. Database: PostgreSQL on AWS RDS. All tests passing. Diana Park has given final approval. See you on the other side!"
+  }
+]

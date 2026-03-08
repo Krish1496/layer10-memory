@@ -1,0 +1,84 @@
+[
+  {
+    "question": "Who owns the Auth Module and what is its status?",
+    "matched_entities": [
+      "Var, Reporting and Resources Meeting"
+    ],
+    "results": [
+      {
+        "claim_id": "eaa0bc67",
+        "subject": "Var, Reporting and Resources Meeting",
+        "predicate": "LEADS",
+        "object": "\u2014",
+        "is_current": true,
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "excerpt": "From:  Airam Arteaga                           10/04/2000 12:23 PM \t  To: Phillip K Allen/HOU/ECT@ECT, Thomas A Martin/HOU/ECT@ECT, Scott  Neal/HOU/ECT@ECT, John Arnold/HOU/ECT@ECT, Grant Masson/HOU/E",
+            "offset_start": 0,
+            "source_id": "msg_011",
+            "author": "Phillip Allen",
+            "ts": "2000-10-04T09:23:00",
+            "subject": "Var, Reporting and Resources Meeting"
+          },
+          {
+            "excerpt": "From:  Airam Arteaga                           10/04/2000 12:23 PM \t  To: Phillip K Allen/HOU/ECT@ECT, Thomas A Martin/HOU/ECT@ECT, Scott  Neal/HOU/ECT@ECT, John Arnold/HOU/ECT@ECT, Grant Masson/HOU/E",
+            "offset_start": 0,
+            "source_id": "msg_011",
+            "author": "Phillip Allen",
+            "ts": "2000-10-04T09:23:00",
+            "subject": "Var, Reporting and Resources Meeting"
+          }
+        ]
+      },
+      {
+        "claim_id": "4d674929",
+        "subject": "Var, Reporting and Resources Meeting",
+        "predicate": "LEADS",
+        "object": "EB30C1",
+        "is_current": true,
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "excerpt": "From:  Airam Arteaga                           10/04/2000 12:23 PM \t  To: Phillip K Allen/HOU/ECT@ECT, Thomas A Martin/HOU/ECT@ECT, Scott  Neal/HOU/ECT@ECT, John Arnold/HOU/ECT@ECT, Grant Masson/HOU/E",
+            "offset_start": 0,
+            "source_id": "msg_011",
+            "author": "Phillip Allen",
+            "ts": "2000-10-04T09:23:00",
+            "subject": "Var, Reporting and Resources Meeting"
+          }
+        ]
+      },
+      {
+        "claim_id": "2cbbd70d",
+        "subject": "Var, Reporting and Resources Meeting",
+        "predicate": "LEADS",
+        "object": "Enron North America Corp.",
+        "is_current": true,
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "excerpt": "From:  Airam Arteaga                           10/04/2000 12:23 PM \t  To: Phillip K Allen/HOU/ECT@ECT, Thomas A Martin/HOU/ECT@ECT, Scott  Neal/HOU/ECT@ECT, John Arnold/HOU/ECT@ECT, Grant Masson/HOU/E",
+            "offset_start": 0,
+            "source_id": "msg_011",
+            "author": "Phillip Allen",
+            "ts": "2000-10-04T09:23:00",
+            "subject": "Var, Reporting and Resources Meeting"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What database technology is Project Nexus using?",
+    "matched_entities": [],
+    "results": [],
+    "note": "No matching entities found. Try different keywords."
+  },
+  {
+    "question": "What is Alice Chen responsible for?",
+    "matched_entities": [],
+    "results": [],
+    "note": "No matching entities found. Try different keywords."
+  }
+]
